@@ -6,6 +6,7 @@ import {
   LucideVolleyball,
   Wifi,
 } from "lucide-react";
+import "boxicons";
 
 const Calculus = () => {
   return (
@@ -43,7 +44,7 @@ const Calculus = () => {
                   Continue with Apple
                 </button>
                 <button className="flex justify-center gap-2 bg-white/5 border border-white/10 cursor-pointer py-2 items-center w-full rounded-3xl">
-                  <LucideVolleyball className="w-6 h-5" />
+                  <i class="bx bxl-google text-xl"></i>
                   Continue with Google
                 </button>
                 <button className="flex justify-center gap-2 bg-white/5 border border-white/10 cursor-pointer py-2 items-center w-full rounded-3xl">
